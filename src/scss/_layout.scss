@@ -1,3 +1,59 @@
 body {
-    background-color: $dark-gray;
+    background-color: $white;
+}
+
+h2,
+h3,
+h4 {
+    font-family: $main-font;
+    color: $dark;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.banner-principal {
+    background-color: $dark-blue;
+    height: 300px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#portafolio {
+    background-color: $gray;
+    .row {
+        margin-bottom: 25px;
+    }
+    .item-portafolio {
+        background-color: $white;
+        border: 1px solid $dark-gray;
+        p {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+    img {
+        max-width: 100%;
+    }
+}
+
+footer {
+    padding: 30px;
+    .social-links {
+        a {
+            border-radius: 50%;
+            color: $white;
+            background: $dark-blue;
+            padding: 10px;
+            display: inline-block;
+            width: 22px;
+            &:hover {
+                background: $dark-gray;
+            }
+        }
+    }
 }
