@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 // Colors
-$dark-gray: #8b8c89;
-$gray: #e7ecef;
-$blue: #6096ba;
-$dark-blue: #274c77;
-$skye: #a3cef1;
-$white: #ffffff;
-$dark: #464646;
+$dark: #23233b;
+$dark-blue: #2c4268;
+$main-blue: #007bba;
+$main-skye: #00a9e2;
+$skye: #7ccdf4;
+$light-skye: #bce3fa;
+$dark-grey: #9b9c9b;
+$main-grey: #b2b0b0;
+$grey: #c5c6c6;
+$light-grey: #ebebeb;
 // Font
 $main-font: 'Varela Round',
+sans-serif;
+$team-font: 'Great Vibes',
+cursive;
+$team-mini: 'Bree Serif',
+serif;
+$service-font: 'Acme',
 sans-serif;
